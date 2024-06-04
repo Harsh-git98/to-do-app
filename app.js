@@ -7,7 +7,8 @@ const app = express();
 // Setting up the template engine
 app.set('view engine', 'ejs');
 
-// Static files
+// Static files used for creating
+
 app.use(express.static('public'));
 
 // Fire controllers
