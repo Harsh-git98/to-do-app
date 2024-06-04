@@ -1,0 +1,117 @@
+body{
+    
+    background: #0d1521;
+    font-family: tahoma;
+    color: #989898;
+
+}
+
+#todo-table{
+    position: relative;
+    width: 95%;
+   
+    background: #090d13;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#todo-table form:after{
+    margin: 0;
+    content: '';
+    display: block;
+    clear: both;
+}
+
+input[type="text"]{
+    width: 70%;
+    padding: 20px;
+    margin: 10px;
+    
+    background:#181c22;
+    border: 0;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    color: #989898;
+}
+
+/* CSS */
+button {
+  display: flex;
+  width:100px;
+  margin:10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin:10px 10px 10px 10px;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+
+  background: #6E6D70;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+  color: #DFDEDF;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+  background-color: rgb(13, 72, 13);
+}
+
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #DFEFDF;
+    width: 70%;
+    text-align: center;
+}
+
+li{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: arial;
+    font-size: 20px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+li:hover{
+    text-decoration: line-through;
+    background: rgba(67, 16, 16, 0.2);
+}
+
+h1{
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
+    
+    color: aquamarine;
+    text-align: center;
+    border: 3px solid antiquewhite;
+    border-radius: 0cap;
+
+   
+    
+}
