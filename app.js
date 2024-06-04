@@ -7,8 +7,7 @@ const app = express();
 // Setting up the template engine
 app.set('view engine', 'ejs');
 
-// Static files used for creating
-
+// Static files
 app.use(express.static('public'));
 
 // Fire controllers
@@ -16,6 +15,8 @@ const todoController = require('./controllers/todoController');
 todoController(app);
 
 // Listen to port
-app.listen(3000, () => {
-    console.log('Listening to port 3000');
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
+    console.log('Listening to port ${PORT}');
 });
