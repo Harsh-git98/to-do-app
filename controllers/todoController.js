@@ -4,9 +4,10 @@ var bodyParser = require('body-parser');
 var urlencodedParser = bodyParser.urlencoded({ extended: false });
 
 // Sample data
-var data = [{ item: 'get milk' }, { item: 'walk dog' }, { item: 'coding' }];
+var data = [{ item: 'good Do' }, { item: 'walk dog' }, { item: 'coding' }];
 
 module.exports = function(app) {
+    
     
     app.get('/todo', function(req, res) {
         res.render('todo', { todos: data });
@@ -25,4 +26,7 @@ module.exports = function(app) {
         });
         res.json(data);
     });
+    app.get('/*',function(req,res){
+        res.redirect('/todo');
+    })
 };
