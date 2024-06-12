@@ -4,7 +4,7 @@ var bodyParser = require('body-parser');
 var urlencodedParser = bodyParser.urlencoded({ extended: false });
 
 // Sample data
-var data = [{ item: 'good Do' }, { item: 'walk dog' }, { item: 'coding' }];
+var data = [{ item: 'Conquer All' }, { item: 'Never Stop Dreaming' }, { item: 'Embrace the Journey' }];
 
 module.exports = function(app) {
     
