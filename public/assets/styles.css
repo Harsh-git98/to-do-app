@@ -46,7 +46,7 @@ input[type="text"]{
     font-size: 20px;
     text-align: center;
     font-weight: 400;
-    color: #989898;
+    color: #d3cfcf;
 }
 
 /* CSS */
@@ -82,7 +82,7 @@ ul{
     list-style-type: none;
     padding: 0;
     margin: 0;
-    border: 1px solid #DFEFDF;
+    border: 1px solid aquamarine;
     width: 70%;
     text-align: center;
 }
@@ -99,7 +99,7 @@ li{
 
 li:hover{
     text-decoration: line-through;
-    background: rgba(67, 16, 16, 0.2);
+    background: rgba(223, 12, 12, 0.164);
 }
 
 h1{
@@ -109,9 +109,12 @@ h1{
     
     color: aquamarine;
     text-align: center;
-    border: 3px solid antiquewhite;
+    border: 3px solid rgb(116, 112, 108);
     border-radius: 0cap;
 
    
     
+}
+p{
+    color: rgb(221, 90, 90);
 }
